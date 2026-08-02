@@ -1,4 +1,5 @@
 package com.devsuperior.ics.dscommerce.entities;
+// entity User criada.
 
 import java.time.LocalDate;
 import java.util.ArrayList;
