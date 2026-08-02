@@ -1,4 +1,6 @@
+// criado entity ORDER, com sucesso
 package com.devsuperior.ics.dscommerce.entities;
+
 
 import java.time.Instant;
 
