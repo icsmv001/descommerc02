@@ -26,6 +26,7 @@ public class Product {
 	private String name;
 	
 	@Column(columnDefinition ="TEXT")
+	
 	private String description;
 	private Double price;
 	private String imgUrl;
@@ -39,7 +40,7 @@ public class Product {
 	
 	
 	
-	//--referencia de uma colecao de categorias, para indicar que nao pode haver repeticao, dever ser criada usando o comando SET.
+	//---referencia de uma colecao de categorias, para indicar que nao pode haver repeticao, dever ser criada usando o comando SET.
 	private Set<Category> categories = new HashSet<>();
 	
 	
