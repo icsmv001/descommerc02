@@ -28,7 +28,9 @@ public class User {
 	@Column(unique=true)
 	private String email;
 	private String phone;
-	private LocalDate birtDate;
+	
+	private LocalDate birth_Date;
+	
 	private String password;
 	
 	@OneToMany(mappedBy = "client")
@@ -46,7 +48,7 @@ public class User {
 		this.name = name;
 		this.email = email;
 		this.phone = phone;
-		this.birtDate = birtDate;
+		this.birth_Date = birth_Date;
 		this.password = password;
 	}
 
@@ -91,13 +93,13 @@ public class User {
 	}
 
 
-	public LocalDate getBirtDate() {
-		return birtDate;
+	public LocalDate getBirth_Date() {
+		return birth_Date;
 	}
 
 
-	public void setBirtDate(LocalDate birtDate) {
-		this.birtDate = birtDate;
+	public void setBirth_Date(LocalDate birth_Date) {
+		this.birth_Date = birth_Date;
 	}
 
 
