@@ -26,8 +26,6 @@ public class ProductController {
 	@Autowired
     private ProductService service;
 	
-		
-	
 	@GetMapping(value="/{id}")
 	public ResponseEntity<ProductDTO> findBy( @PathVariable Long id) {
 	
