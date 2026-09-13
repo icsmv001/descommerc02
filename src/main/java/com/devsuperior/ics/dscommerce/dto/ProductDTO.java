@@ -19,6 +19,8 @@ public class ProductDTO {
 		this.imgUrl = imgUrl;
 	}
 	
+	public ProductDTO() {
+	}
 	
 	public ProductDTO(Product entity) {
 		id = entity.getId();

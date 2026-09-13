@@ -31,8 +31,6 @@ public class ProductController {
 	
 	ProductDTO dto = service.findById(id);
 	return ResponseEntity.ok(dto);
-	
-	
 	}
 	
 		
