@@ -20,8 +20,6 @@ import jakarta.persistence.Table;
 @Table(name = "tb_product")
 public class Product {
 	
-	
-	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 
